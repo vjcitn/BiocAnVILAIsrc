@@ -7,4 +7,4 @@ An AnVIL cloud environment with
 - 8 CPU, 52GB RAM
 - 1 Tesla T4 GPU
 
-will be able to run the newvar3.ipynb application of the Nucleotide Transformer model ([paper](https://www.nature.com/articles/s41592-024-02523-z))
+will be able to run the [newvar3.ipynb](https://github.com/vjcitn/BiocAnVILAIsrc/blob/main/newvar3.ipynb) application of the Nucleotide Transformer model ([paper](https://www.nature.com/articles/s41592-024-02523-z))
