@@ -1,6 +1,6 @@
 ## ----ch1----------------------------------------------------------------------
 # Install required packages (install options may depend on OS and version)
-install.packages(c("DESeq2", "tidyr", "dplyr", "ggplot2", "BiocManager"))
+#install.packages(c("DESeq2", "tidyr", "dplyr", "ggplot2", "BiocManager"))
 
 # Load packages
 library(DESeq2)
@@ -26,7 +26,7 @@ unique(counts)       # Sample names
 # Create sample information structure
 design <- ~dex
 dds <- DESeqDataSetFromMatrix(
-  counts = counts,
+  countData = counts,
   colData = metadata,
   design = design
 )
