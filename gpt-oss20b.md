@@ -2,8 +2,7 @@
 
 | Item | What it means |
 |------|---------------|
-| **NHGRI** | National Human Genome Research Institute, a division of the NIH that funds large‑scale genomics research.
-|
+| **NHGRI** | National Human Genome Research Institute, a division of the NIH that funds large‑scale genomics research.|
 | **AnVIL** | A cloud‑native platform that brings together data, tools, workflows and infrastructure so that genomic
 scientists can **share, analyze and reproduce** their work in a single environment. |
 | **“Lab‑space”** | Think of it as a virtual lab bench that lives in the cloud. Researchers can check out datasets, run
@@ -15,20 +14,12 @@ pipelines, create notebooks, and publish results—all while staying compliant w
 
 | Component | Purpose |
 |-----------|---------|
-| **Data Commons** | Secure, high‑performance storage for billions of genomic reads, variants, phenotypes, etc.  The
-commons are built on the NIH **Gen3** framework and expose a **FAIR‑ready** API.  Example commons:  *TOPMed*, *All of
-Us*, *dbGaP*, *eMERGE*, *NIH GWAS Catalog* … |
-| **Terra** | The user‑interface and workflow engine.  Terra is the “frontend” of AnVIL – where you launch notebooks,
-run GATK, Spark jobs, or custom Docker containers.  It runs on a multi‑cloud (AWS, GCP, Azure) back‑end. |
-| **GA4GH Standards** | AnVIL implements the Global Alliance for Genomics & Health APIs (e.g., Passports, Data Use
-Ontology) so that datasets can be queried, federated, and reused by the wider community. |
-| **Security & Compliance** | All data are encrypted at rest and in transit.  Access is governed by the
-*HIPAA*‑compliant “Controlled‑Access” model, and data‑use agreements are enforced automatically via the *AnVIL Data Use
-Service* (DUS). |
-| **Tools & Workflows** | A curated library of Docker images, Nextflow pipelines, Snakemake templates, and Jupyter‑Lab
-notebooks.  These can be shared as “Apps” and re‑used by other projects. |
-| **APIs & SDKs** | Python, R, and command‑line libraries (e.g., *anvil-client*) that let developers build custom
-analytics or integrate AnVIL into other pipelines. |
+| **Data Commons** | Secure, high‑performance storage for billions of genomic reads, variants, phenotypes, etc.  Thecommons are built on the NIH **Gen3** framework and expose a **FAIR‑ready** API.  Example commons:  *TOPMed*, *All ofUs*, *dbGaP*, *eMERGE*, *NIH GWAS Catalog* … |
+| **Terra** | The user‑interface and workflow engine.  Terra is the “frontend” of AnVIL – where you launch notebooks,run GATK, Spark jobs, or custom Docker containers.  It runs on a multi‑cloud (AWS, GCP, Azure) back‑end. |
+| **GA4GH Standards** | AnVIL implements the Global Alliance for Genomics & Health APIs (e.g., Passports, Data Use Ontology) so that datasets can be queried, federated, and reused by the wider community. |
+| **Security & Compliance** | All data are encrypted at rest and in transit.  Access is governed by the *HIPAA*‑compliant “Controlled‑Access” model, and data‑use agreements are enforced automatically via the *AnVIL Data Use Service* (DUS). |
+| **Tools & Workflows** | A curated library of Docker images, Nextflow pipelines, Snakemake templates, and Jupyter‑Lab notebooks.  These can be shared as “Apps” and re‑used by other projects. |
+| **APIs & SDKs** | Python, R, and command‑line libraries (e.g., *anvil-client*) that let developers build custom analytics or integrate AnVIL into other pipelines. |
 
 ---
 
@@ -36,16 +27,11 @@ analytics or integrate AnVIL into other pipelines. |
 
 | Need | How AnVIL Helps |
 |------|-----------------|
-| **Data Sharing** | You can publish a dataset once, and anyone in the NIH community can access it (within the
-permissions granted). |
-| **Scalability** | No need to provision your own HPC cluster; AnVIL scales automatically for terabytes of sequencing
-data. |
-| **Reproducibility** | All code, parameters, and data lineage are tracked.  You can share a “project” that others can
-clone and run verbatim. |
-| **Cost‑Efficiency** | Compute is billed by the hour, and the platform optimizes resource use.  Many NIH projects
-receive cost‑sharing or credit. |
-| **Interoperability** | Because the platform uses GA4GH standards, you can federate queries across other NIH data
-commons (e.g., combine *TOPMed* data with *All of Us* data). |
+| **Data Sharing** | You can publish a dataset once, and anyone in the NIH community can access it (within the permissions granted). |
+| **Scalability** | No need to provision your own HPC cluster; AnVIL scales automatically for terabytes of sequencing data. |
+| **Reproducibility** | All code, parameters, and data lineage are tracked.  You can share a “project” that others can clone and run verbatim. |
+| **Cost‑Efficiency** | Compute is billed by the hour, and the platform optimizes resource use.  Many NIH projects receive cost‑sharing or credit. |
+| **Interoperability** | Because the platform uses GA4GH standards, you can federate queries across other NIH data commons (e.g., combine *TOPMed* data with *All of Us* data). |
 
 ---
 
