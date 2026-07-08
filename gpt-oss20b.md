@@ -3,10 +3,8 @@
 | Item | What it means |
 |------|---------------|
 | **NHGRI** | National Human Genome Research Institute, a division of the NIH that funds large‑scale genomics research.|
-| **AnVIL** | A cloud‑native platform that brings together data, tools, workflows and infrastructure so that genomic
-scientists can **share, analyze and reproduce** their work in a single environment. |
-| **“Lab‑space”** | Think of it as a virtual lab bench that lives in the cloud. Researchers can check out datasets, run
-pipelines, create notebooks, and publish results—all while staying compliant with privacy regulations. |
+| **AnVIL** | A cloud‑native platform that brings together data, tools, workflows and infrastructure so that genomic scientists can **share, analyze and reproduce** their work in a single environment. |
+| **“Lab‑space”** | Think of it as a virtual lab bench that lives in the cloud. Researchers can check out datasets, run pipelines, create notebooks, and publish results—all while staying compliant with privacy regulations. |
 
 ---
 
